@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f8f8f8;
+}
+.specialcard{
+    border: 1px dashed black;
+}
+.img2{
+    position: relative;
+    top:-15px;
+}
+.upp{
+    background-image: url('images/fish6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 250px;
+}
+
+.tt{
+   
+   background-color: orange;
+   opacity: 0.3;
+   height: 0;
+   overflow: hidden;
+   transition: 1s;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
+}
+
+.upp:hover .tt{
+ 
+    height: 100%;
+}
+.parent{
+    height: 400px;
+  
+    background-color: aquamarine;
+    /* position: absolute; */
+}
+.child{
+    position: relative;
+    top: 90%;
+     height:0;
+     opacity: 0.2;
+     overflow: hidden;
+
+    background-color: violet;
+    transition: 2s;
+}
+.parent:hover .child{
+top:0;
+height: 100%;
+}
+.card-block{
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.card-h{
+    background-color: #9c5959;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: cursive;
+}
+.order{
+     font-size: 18px;
+}
+ul{
+    list-style-type: none;
+}
+.list-item{
+    border-bottom: 1.5px solid grey;
+    padding: 7px 0;
+    
+}
+ul li{
+    font-size: 18px;
+}
+.roundedd{
+    border: 2.5px solid  #9c5959;
+   width: 35%;
+    height: 28%;
+    padding: 25px 0;
+    box-shadow: 2px;
+    margin: 0 auto;
+    position: relative;
+    bottom:40px;
+
+
+    border-radius: 50%;
+    background: white;
+    color: #9c5959;
+    font-size: 34px;
+    text-align: center;
+    
+}
+.btn{
+    
+}
+
+.dot{
+    border: 1px solid grey;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    
+}
+
+.chat{
+    background-color: white;
+/*    width: 50%;*/
+    
+}
+.landing{
+    height: 800px;
+background-size: cover;
+    background-color: azure;
+    background-image: url('images/restaurant-coffee-chocolate-dessert.jpg');
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 12px;
+    
+}
+
+
